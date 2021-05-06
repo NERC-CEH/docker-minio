@@ -1,6 +1,6 @@
-FROM minio/minio
+FROM minio/minio:RELEASE.2021-04-27T23-46-03Z.release.0033eb96
 
-LABEL maintainer "joshua.foster@stfc.ac.uk"
+LABEL maintainer="joshua.foster@stfc.ac.uk"
 
 RUN apk --no-cache add shadow su-exec
 
