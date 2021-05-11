@@ -1,4 +1,4 @@
-FROM minio/minio:RELEASE.2021-04-27T23-46-03Z.release.0033eb96
+FROM minio/minio:RELEASE.2017-11-22T19-55-46Z
 
 LABEL maintainer="joshua.foster@stfc.ac.uk"
 
